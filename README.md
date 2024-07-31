@@ -149,13 +149,13 @@ Specific blog posts / Vulnerability Disclosures
 
 # Tools
 
-Convert the following bullets to a markdown table with columns: Tool, Layer, DSL, Analysis
-
-* [Circomspect](https://github.com/trailofbits/circomspect), Circuit, Circom, Static Analysis
-* [ZKAP](https://github.com/whbjzzwjxq/ZKAP), Circuit, Circom, Static Analysis
-* [halo2-analyzer](https://github.com/quantstamp/halo2-analyzer), Circuit, halo2, Static Analysis / Symbolic Analysis
-* [Coda](https://github.com/Veridise/coda), Circuit, Circom, Formal Verification (Coq)
-* [Picus](https://github.com/Veridise/Picus), Circuit, Circom, Formal Verification
-* [SNARKProver](https://github.com/BARC-Purdue/SNARKProbe), Circuit/Backend, R1CS, Fuzzing
-* [circom_civer](https://github.com/costa-group/circom_civer), Circuit, Circom, Formal Verification
-* [gnark-lean-extractor](https://github.com/reilabs/gnark-lean-extractor), Circuit, Gnark, Formal Verification (Lean)
+| Tool                                                                                       | Layer           | DSL    | Analysis                            |
+|--------------------------------------------------------------------------------------------|-----------------|--------|-------------------------------------|
+| [Circomspect](https://github.com/trailofbits/circomspect)                                  | Circuit         | Circom | Static Analysis                     |
+| [ZKAP](https://github.com/whbjzzwjxq/ZKAP)                                                 | Circuit         | Circom | Static Analysis                     |
+| [halo2-analyzer](https://github.com/quantstamp/halo2-analyzer)                             | Circuit         | halo2  | Static Analysis / Symbolic Analysis |
+| [Coda](https://github.com/Veridise/coda)                                                   | Circuit         | Circom | Formal Verification (Coq)           |
+| [Picus](https://github.com/Veridise/Picus)                                                 | Circuit         | Circom | Formal Verification                 |
+| [SNARKProver](https://github.com/BARC-Purdue/SNARKProbe)                                   | Circuit/Backend | R1CS   | Fuzzing                             |
+| [circom_civer](https://github.com/costa-group/circom_civer)                                | Circuit         | Circom | Formal Verification                 |
+| [gnark-lean-extractor](https://github.com/reilabs/gnark-lean-extractor)                    | Circuit         | Gnark  | Formal Verification (Lean)          |
