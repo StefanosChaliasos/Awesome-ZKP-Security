@@ -111,6 +111,7 @@ Specific blog posts / Vulnerability Disclosures
 - [ZKProof 6: Why Verifying the Verifier Opens Up Longer-Term ZK Innovation - Ben Livshits (Matter Labs)](https://www.youtube.com/live/JUls9DWQuic?si=82_0U-ObhW5PCJ7j)
 - [ZKProof 6: Practical Formal Verification for Arithmetic Circuits - Marcin Kostrzewa (Reilabs)](https://www.youtube.com/live/pidYRNKplZE?si=qAgi_XQQS4cQPWif)
 - [ZKProof 6: SoK: Understanding Security Vulnerabilities in SNARKs - Stefanos Chaliasos (Imperial College London)](https://www.youtube.com/watch?v=6-aeTlREYZo)
+- [ETHCC\[7\]: Analysis and Auditing of ZKP Vulnerabilities](https://ethcc.io/archive/Analysis-and-Auditing-of-ZKP-Vulnerabilities)
 
 # CTFs and Puzzles
 
