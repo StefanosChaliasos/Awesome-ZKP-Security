@@ -146,6 +146,7 @@ Specific blog posts / Vulnerability Disclosures
 - [Leo: A Programming Language for Formally Verified, Zero-Knowledge Applications](https://docs.zkproof.org/pages/standards/accepted-workshop4/proposal-leo.pdf)
 - [SNARKProbe: An Automated Security Analysis Framework for zkSNARK Implementations](https://link.springer.com/chapter/10.1007/978-3-031-54773-7_14)
 - [Scalable Verification of Zero-Knowledge Protocols](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a133/1Ub23QzVaWA)
+- [The Last Challenge Attack: Exploiting a Vulnerable Implementation of the Fiat-Shamir Transform in a KZG-based SNARK](https://eprint.iacr.org/2024/398)
 
 # Tools
 
