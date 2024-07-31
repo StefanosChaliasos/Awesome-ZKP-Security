@@ -111,6 +111,7 @@ Specific blog posts / Vulnerability Disclosures
 - [ZKProof 6: Why Verifying the Verifier Opens Up Longer-Term ZK Innovation - Ben Livshits (Matter Labs)](https://www.youtube.com/live/JUls9DWQuic?si=82_0U-ObhW5PCJ7j)
 - [ZKProof 6: Practical Formal Verification for Arithmetic Circuits - Marcin Kostrzewa (Reilabs)](https://www.youtube.com/live/pidYRNKplZE?si=qAgi_XQQS4cQPWif)
 - [ZKProof 6: SoK: Understanding Security Vulnerabilities in SNARKs - Stefanos Chaliasos (Imperial College London)](https://www.youtube.com/watch?v=6-aeTlREYZo)
+- [ETHCC\[7\]: Analysis and Auditing of ZKP Vulnerabilities](https://ethcc.io/archive/Analysis-and-Auditing-of-ZKP-Vulnerabilities)
 
 # CTFs and Puzzles
 
@@ -146,6 +147,7 @@ Specific blog posts / Vulnerability Disclosures
 - [Leo: A Programming Language for Formally Verified, Zero-Knowledge Applications](https://docs.zkproof.org/pages/standards/accepted-workshop4/proposal-leo.pdf)
 - [SNARKProbe: An Automated Security Analysis Framework for zkSNARK Implementations](https://link.springer.com/chapter/10.1007/978-3-031-54773-7_14)
 - [Scalable Verification of Zero-Knowledge Protocols](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a133/1Ub23QzVaWA)
+- [The Last Challenge Attack: Exploiting a Vulnerable Implementation of the Fiat-Shamir Transform in a KZG-based SNARK](https://eprint.iacr.org/2024/398)
 
 # Tools
 
