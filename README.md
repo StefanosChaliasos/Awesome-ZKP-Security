@@ -8,11 +8,10 @@ If you want to add a new resource, please submit a pull request to improve this 
 
 - [ZKPs](#zkps)
 - [Blogs](#blogs)
-- [Podcasts](#podcasts)
-- [Disclosures](#disclosures)
 - [Audits](#audits)
 - [Talks](#talks)
 - [CTFs and Puzzles](#ctfs-and-puzzles)
+- [Misc](#misc)
 - [Papers](#papers)
 - [Tools](#tools)
 
