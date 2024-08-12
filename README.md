@@ -125,6 +125,7 @@ Specific blog posts / Vulnerability Disclosures
 - [zk-bug-tracker](https://github.com/0xPARC/zk-bug-tracker)
 - [ZK-EVM Audit education sessions](https://www.notion.so/scrollzkp/zkEVM-Audit-Education-Session-11-15-11-22-86d60daceadb438f85908817f7082611)
 - [ZK Podcast](https://zeroknowledge.fm/episodes/)
+- [ZK Bugs Dataset with reproducible vulns](https://github.com/zksecurity/zkbugs/)
 
 # Papers
 
