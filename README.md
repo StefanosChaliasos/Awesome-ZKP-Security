@@ -155,18 +155,18 @@ Specific blog posts / Vulnerability Disclosures
 
 If the link points to a paper then it means that the tool is not open-sourced.
 
-| Tool                                                                                       | Layer           | DSL    | Analysis                            |
+| Tool                                                                                       | Layer           | DSL / Target | Analysis                      |
 |--------------------------------------------------------------------------------------------|-----------------|--------|-------------------------------------|
 | [Circomspect](https://github.com/trailofbits/circomspect)                                  | Circuit         | Circom | Static Analysis                     |
 | [ZKAP](https://github.com/whbjzzwjxq/ZKAP)                                                 | Circuit         | Circom | Static Analysis                     |
 | [halo2-analyzer](https://github.com/quantstamp/halo2-analyzer)                             | Circuit         | halo2  | Static Analysis / Symbolic Analysis |
 | [Coda](https://github.com/Veridise/coda)                                                   | Circuit         | Circom | Formal Verification (Coq)           |
 | [Picus](https://github.com/Veridise/Picus)                                                 | Circuit         | Circom, GNARK (R1CS) | Formal Verification   |
-| [Ecne]([https://github.com/Veridise/Picus](https://github.com/franklynwang/EcneProject)    | Circuit         | Circom (R1CS) | Formal Verification          |
+| [Ecne](https://github.com/franklynwang/EcneProject)                                        | Circuit         | Circom (R1CS) | Formal Verification          |
 | [SNARKProbe](https://github.com/BARC-Purdue/SNARKProbe)                                    | Circuit/Backend | R1CS   | Fuzzing                             |
 | [circom_civer](https://github.com/costa-group/circom_civer)                                | Circuit         | Circom | Formal Verification                 |
 | [gnark-lean-extractor](https://github.com/reilabs/gnark-lean-extractor)                    | Circuit         | Gnark  | Formal Verification (Lean)          |
-| [fAmulet](https://github.com/reilabs/gnark-lean-extractor](https://arxiv.org/pdf/2410.12210)| Circuit/zk(E)VM| Polygon zkEVM  | Fuzzing                     |
+| [fAmulet](https://arxiv.org/pdf/2410.12210)                                                | Circuit/zk(E)VM|  Polygon zkEVM | Fuzzing                      |
 | [zkwasm-fv](https://github.com/CertiKProject/zkwasm-fv)                                    | Circuit/zk(E)VM | zkWasm | Formal Verification (Coq)           |
 | [MTZK]()                                                                                   | Frontend        | ZoKrates, Noir, Cairo, Leo | Fuzzing (Metamorphing Testing)|
 | [Circuzz](https://arxiv.org/pdf/2411.02077)                                                | Frontend        | Circom, Corset, GNARK, Noir| Fuzzing (Metamorphing Testing)|
