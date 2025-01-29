@@ -85,6 +85,7 @@ Specific blog posts / Vulnerability Disclosures
 - [Filecoin —one PoREP vulnerability found by Trapdoor Tech](https://trapdoortech.medium.com/filecoin-one-porep-vulnerability-found-by-trapdoor-tech-7fc7beb4557b)
 - [Formal Verification of ZK Constraint Systems](https://delendum.xyz/writings/2022-09-04-formal-verification-zk-constraint-systems.html)
 - [Groth16 Malleability](https://geometry.xyz/notebook/groth16-malleability)
+- [SP1 Security Update (2 vulns disclosure)](https://blog.succinct.xyz/sp1-security-update-1-27-25/) -- 27/1/2025
 
 # Audits
 
@@ -150,6 +151,7 @@ Specific blog posts / Vulnerability Disclosures
 - [The Last Challenge Attack: Exploiting a Vulnerable Implementation of the Fiat-Shamir Transform in a KZG-based SNARK](https://eprint.iacr.org/2024/398)
 - [fAmulet: Finding Finalization Failure Bugs in Polygon zkRollup](https://arxiv.org/pdf/2410.12210)
 - [Fuzzing Processing Pipelines for Zero-Knowledge Circuits](https://arxiv.org/pdf/2411.02077)
+- [How to Prove False Statements: Practical Attacks on Fiat-Shamir](https://eprint.iacr.org/2025/118)
 
 # Tools
 
