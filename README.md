@@ -153,6 +153,9 @@ Specific blog posts / Vulnerability Disclosures
 - [Fuzzing Processing Pipelines for Zero-Knowledge Circuits](https://arxiv.org/pdf/2411.02077)
 - [How to Prove False Statements: Practical Attacks on Fiat-Shamir](https://eprint.iacr.org/2025/118)
 - [MTZK: Testing and Exploring Bugs in Zero-Knowledge (ZK) Compilers](https://www.ndss-symposium.org/wp-content/uploads/2025-530-paper.pdf)
+- [zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits](https://arxiv.org/pdf/2504.11961)
+- [ConsCS: Effective and Efficient Verification of Circom Circuits](https://www.computer.org/csdl/proceedings-article/icse/2025/056900a737/251mHhOXS9i)
+- [AC4: Algebraic Computation Checker for Circuit Constraints](https://arxiv.org/pdf/2403.15676)
 
 # Tools
 
@@ -176,3 +179,5 @@ If the link points to a paper then it means that the tool is not open-sourced.
 | [aztec_fuzzing](https://github.com/FuzzingLabs/aztec_fuzzing)                              | Frontend        | Noir    | Fuzzing (Generation-based)         |
 | [sierra_analyzer](https://github.com/FuzzingLabs/sierra-analyzer)                          | Circuit         | Cairo   | Static Analysis / Symbolic Execution |
 | [Pilspector](https://github.com/Schaeff/pilspector/)                                       | Circuit         | PIL     | Symbolic Analysis                  |
+| [zkFuzz](https://github.com/Koukyosyumei/zkFuzz)                                           | Circuit         | Circom  | Fuzzing                            |
+| [CIVER](https://github.com/costa-group/circom_civer)                                       | Circuit         | Circom  | Formal Verification (SMT)          |
