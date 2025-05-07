@@ -86,6 +86,7 @@ Specific blog posts / Vulnerability Disclosures
 - [Formal Verification of ZK Constraint Systems](https://delendum.xyz/writings/2022-09-04-formal-verification-zk-constraint-systems.html)
 - [Groth16 Malleability](https://geometry.xyz/notebook/groth16-malleability)
 - [SP1 Security Update (2 vulns disclosure)](https://blog.succinct.xyz/sp1-security-update-1-27-25/) -- 27/1/2025
+- [Solana says zero-knowledge proofs were root of mid-April bug](https://blockworks.co/news/solana-bug-patch-zero-knowledge-proofs) ([fix](https://github.com/anza-xyz/agave/pull/5883)) -- 5/5/2025
 
 # Audits
 
