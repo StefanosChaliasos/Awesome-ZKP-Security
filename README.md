@@ -182,3 +182,4 @@ If the link points to a paper then it means that the tool is not open-sourced.
 | [Pilspector](https://github.com/Schaeff/pilspector/)                                       | Circuit         | PIL     | Symbolic Analysis                  |
 | [zkFuzz](https://github.com/Koukyosyumei/zkFuzz)                                           | Circuit         | Circom  | Fuzzing                            |
 | [CIVER](https://github.com/costa-group/circom_civer)                                       | Circuit         | Circom  | Formal Verification (SMT)          |
+| [garden](https://github.com/formal-land/garden)                                            | Circuit         | Circom  | Formal Verification (Coq)          |
