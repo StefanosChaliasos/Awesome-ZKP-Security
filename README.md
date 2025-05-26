@@ -157,6 +157,7 @@ Specific blog posts / Vulnerability Disclosures
 - [zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits](https://arxiv.org/pdf/2504.11961)
 - [ConsCS: Effective and Efficient Verification of Circom Circuits](https://www.computer.org/csdl/proceedings-article/icse/2025/056900a737/251mHhOXS9i)
 - [AC4: Algebraic Computation Checker for Circuit Constraints](https://arxiv.org/pdf/2403.15676)
+- [Automated Verification of Consistency in Zero-Knowledge Proof Circuits](https://eprint.iacr.org/2025/916.pdf)
 
 # Tools
 
