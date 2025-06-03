@@ -129,6 +129,10 @@ Specific blog posts / Vulnerability Disclosures
 - [ZK Podcast](https://zeroknowledge.fm/episodes/)
 - [ZK Bugs Dataset with reproducible vulns](https://github.com/zksecurity/zkbugs/)
 
+# Advisories
+
+- [Plonky3 -- Missing final polynomial degree check in FRI verifier](https://github.com/Plonky3/Plonky3/security/advisories/GHSA-f69f-5fx9-w9r9)
+
 # Papers
 
 - [SoK: What don't we know? Understanding Security Vulnerabilities in SNARKs](https://arxiv.org/pdf/2402.15293)
@@ -158,10 +162,11 @@ Specific blog posts / Vulnerability Disclosures
 - [ConsCS: Effective and Efficient Verification of Circom Circuits](https://www.computer.org/csdl/proceedings-article/icse/2025/056900a737/251mHhOXS9i)
 - [AC4: Algebraic Computation Checker for Circuit Constraints](https://arxiv.org/pdf/2403.15676)
 - [Automated Verification of Consistency in Zero-Knowledge Proof Circuits](https://eprint.iacr.org/2025/916.pdf)
+- [Towards Fuzzing Zero-Knowledge Proof Circuits (Short Paper)](https://arxiv.org/pdf/2504.14881)
 
 # Tools
 
-If the link points to a paper then it means that the tool is not open-sourced.
+If the link points to a paper, then it means that the tool is not open-sourced.
 
 | Tool                                                                                       | Layer           | DSL / Target | Analysis                      |
 |--------------------------------------------------------------------------------------------|-----------------|--------|-------------------------------------|
