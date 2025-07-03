@@ -4,7 +4,7 @@ A curated list of awesome ZKP Security resources, papers, tutorials, and tools. 
 
 If you want to add a new resource, please submit a pull request to improve this file. Thank you!
 
-# Table of Contents
+## Table of Contents
 
 - [ZKPs](#zkps)
 - [Blogs](#blogs)
@@ -15,9 +15,9 @@ If you want to add a new resource, please submit a pull request to improve this 
 - [Papers](#papers)
 - [Tools](#tools)
 
-# ZKPs
+## ZKPs
 
-Curated Lists for ZKPs
+### Curated Lists for ZKPs
 
 - [Xor0v0/awesome-zero-knowledge-proofs-security](https://github.com/Xor0v0/awesome-zero-knowledge-proofs-security)
 - [sCrypt-Inc: Awesome zero knowledge proofs](https://github.com/sCrypt-Inc/awesome-zero-knowledge-proofs)
@@ -29,20 +29,20 @@ Curated Lists for ZKPs
 - [Zero Knowledge Canon by a16z](https://a16zcrypto.com/zero-knowledge-canon/)
 - [ZKP Knowledge Base by Delendum Research](https://kb.delendum.xyz/)
 
-Courses
+### Courses
 
 - [Zero Knowledge Proofs MOOC](https://zk-learning.org/)
 - [MIT's Modern Zero Knowledge Cryptography](https://zkiap.com/)
 - [0xParc's Circom and Halo2 learning groups](https://learn.0xparc.org/)
 
-Books
+### Books
 
 - [The MoonMath Manual to zk-SNARKs](https://leastauthority.com/community-matters/moonmath-manual): minimal experience in cryptography required
 - [A Graduate Course in Applied Cryptography](http://toc.cryptobook.us/book.pdf) (Dan Boneh and Victor Shoup, 2023)
 - [Proofs, Arguments, and Zero-Knowledge](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf) (Justin Thaler, 2022)
 - [Building Cryptography Proofs from Hash Functions](https://github.com/hash-based-snargs-book/hash-based-snargs-book/blob/main/snargs-book.pdf) (Alessandro Chiesa and Eylon Yogev, 2024)
 
-# Blogs
+## Blogs
 
 - [zkSecurity's Blog](https://www.zksecurity.xyz/blog/)
 - [0xParc's Blog](https://0xparc.org/blog)
@@ -51,8 +51,6 @@ Books
 - [Veridise's Blog](https://veridise.medium.com/)
 - [Zellic's Blog](https://www.zellic.io/blog/)
 - [David Wong's Blog](https://www.cryptologie.net/)
-
-Specific blog posts / Vulnerability Disclosures
 
 - [The State of Security Tools for ZKPs](https://www.zksecurity.xyz/blog/posts/zksecurity-tools/)
 - [Detecting boomerang values in zero-knowledge circuits using tag analysis](https://www.zksecurity.xyz/blog/posts/boomerang/)
@@ -87,15 +85,15 @@ Specific blog posts / Vulnerability Disclosures
 - [Groth16 Malleability](https://geometry.xyz/notebook/groth16-malleability)
 - [SP1 Security Update (2 vulns disclosure)](https://blog.succinct.xyz/sp1-security-update-1-27-25/) -- 27/1/2025
 - [Solana says zero-knowledge proofs were root of mid-April bug](https://blockworks.co/news/solana-bug-patch-zero-knowledge-proofs) ([fix](https://github.com/anza-xyz/agave/pull/5883)) -- 5/5/2025
+### Specific blog posts / Vulnerability Disclosures
 
-# Audits
+
+## Audits
 
 - [Collection of security reviews of ZK Protocols](https://github.com/nullity00/zk-security-reviews)
 - [zksecurity audit reports](https://www.zksecurity.xyz/reports/)
 - [openzeppelin audit reports](https://blog.openzeppelin.com/tag/security-audits)
 - [veridise audit reports](https://veridise.com/past-security-audits/)
-
-# Talks
 
 - [ZKP MOOC Lecture 15: Secure ZK Circuits with Formal Methods](https://www.youtube.com/watch?v=av7Wq742GIA)
 - [zkStudyClub: Zero-Knowledge Proofs Security, in Practice -- JP Aumasson, Taurus](https://www.youtube.com/watch?v=l_pIrHVz87I)
@@ -113,8 +111,10 @@ Specific blog posts / Vulnerability Disclosures
 - [ZKProof 6: Practical Formal Verification for Arithmetic Circuits - Marcin Kostrzewa (Reilabs)](https://www.youtube.com/live/pidYRNKplZE?si=qAgi_XQQS4cQPWif)
 - [ZKProof 6: SoK: Understanding Security Vulnerabilities in SNARKs - Stefanos Chaliasos (Imperial College London)](https://www.youtube.com/watch?v=6-aeTlREYZo)
 - [ETHCC\[7\]: Analysis and Auditing of ZKP Vulnerabilities](https://ethcc.io/archive/Analysis-and-Auditing-of-ZKP-Vulnerabilities)
+## Talks
 
-# CTFs and Puzzles
+
+## CTFs and Puzzles
 
 - [ZKHACK's puzzles](https://zkhack.dev/puzzles/)
 - [RareSkills' puzzles](https://github.com/RareSkills/zero-knowledge-puzzles)
@@ -122,18 +122,18 @@ Specific blog posts / Vulnerability Disclosures
 - [StarknetCC-CTF](https://github.com/pscott/StarknetCC-CTF)
 - [CRYPTOHACK](https://cryptohack.org/challenges/zkp/)
 
-# Misc
+## Misc
 
 - [zk-bug-tracker](https://github.com/0xPARC/zk-bug-tracker)
 - [ZK-EVM Audit education sessions](https://www.notion.so/scrollzkp/zkEVM-Audit-Education-Session-11-15-11-22-86d60daceadb438f85908817f7082611)
 - [ZK Podcast](https://zeroknowledge.fm/episodes/)
 - [ZK Bugs Dataset with reproducible vulns](https://github.com/zksecurity/zkbugs/)
 
-# Advisories
+## Advisories
 
 - [Plonky3 -- Missing final polynomial degree check in FRI verifier](https://github.com/Plonky3/Plonky3/security/advisories/GHSA-f69f-5fx9-w9r9)
 
-# Papers
+## Papers
 
 - [SoK: What don't we know? Understanding Security Vulnerabilities in SNARKs](https://arxiv.org/pdf/2402.15293)
 - [Zero-Knowledge Proof Vulnerability Analysis and Security Auditing](https://eprint.iacr.org/2024/514.pdf)
@@ -164,7 +164,7 @@ Specific blog posts / Vulnerability Disclosures
 - [Automated Verification of Consistency in Zero-Knowledge Proof Circuits](https://eprint.iacr.org/2025/916.pdf)
 - [Towards Fuzzing Zero-Knowledge Proof Circuits (Short Paper)](https://arxiv.org/pdf/2504.14881)
 
-# Tools
+## Tools
 
 If the link points to a paper, then it means that the tool is not open-sourced.
 
