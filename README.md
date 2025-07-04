@@ -4,7 +4,7 @@ A curated list of awesome ZKP Security resources, papers, tutorials, and tools. 
 
 If you want to add a new resource, please submit a pull request to improve this file. Thank you!
 
-# Table of Contents
+## Table of Contents
 
 - [ZKPs](#zkps)
 - [Blogs](#blogs)
@@ -15,9 +15,9 @@ If you want to add a new resource, please submit a pull request to improve this 
 - [Papers](#papers)
 - [Tools](#tools)
 
-# ZKPs
+## ZKPs
 
-Curated Lists for ZKPs
+### Curated Lists for ZKPs
 
 - [Xor0v0/awesome-zero-knowledge-proofs-security](https://github.com/Xor0v0/awesome-zero-knowledge-proofs-security)
 - [sCrypt-Inc: Awesome zero knowledge proofs](https://github.com/sCrypt-Inc/awesome-zero-knowledge-proofs)
@@ -29,20 +29,20 @@ Curated Lists for ZKPs
 - [Zero Knowledge Canon by a16z](https://a16zcrypto.com/zero-knowledge-canon/)
 - [ZKP Knowledge Base by Delendum Research](https://kb.delendum.xyz/)
 
-Courses
+### Courses
 
 - [Zero Knowledge Proofs MOOC](https://zk-learning.org/)
 - [MIT's Modern Zero Knowledge Cryptography](https://zkiap.com/)
 - [0xParc's Circom and Halo2 learning groups](https://learn.0xparc.org/)
 
-Books
+### Books
 
 - [The MoonMath Manual to zk-SNARKs](https://leastauthority.com/community-matters/moonmath-manual): minimal experience in cryptography required
 - [A Graduate Course in Applied Cryptography](http://toc.cryptobook.us/book.pdf) (Dan Boneh and Victor Shoup, 2023)
 - [Proofs, Arguments, and Zero-Knowledge](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf) (Justin Thaler, 2022)
 - [Building Cryptography Proofs from Hash Functions](https://github.com/hash-based-snargs-book/hash-based-snargs-book/blob/main/snargs-book.pdf) (Alessandro Chiesa and Eylon Yogev, 2024)
 
-# Blogs
+## Blogs
 
 - [zkSecurity's Blog](https://www.zksecurity.xyz/blog/)
 - [0xParc's Blog](https://0xparc.org/blog)
@@ -52,69 +52,69 @@ Books
 - [Zellic's Blog](https://www.zellic.io/blog/)
 - [David Wong's Blog](https://www.cryptologie.net/)
 
-Specific blog posts / Vulnerability Disclosures
+### Specific blog posts / Vulnerability Disclosures
 
-- [The State of Security Tools for ZKPs](https://www.zksecurity.xyz/blog/posts/zksecurity-tools/)
-- [Detecting boomerang values in zero-knowledge circuits using tag analysis](https://www.zksecurity.xyz/blog/posts/boomerang/)
-- [The zero-knowledge attack of the year might just have happened, or how Nova got broken](https://www.zksecurity.xyz/blog/posts/nova-attack/)
-- [Do in secret. Assert in public. Don't under-constrain your prover's witness computation in ZK programs](https://www.zksecurity.xyz/blog/posts/underconstrain-bugs/)
-- [Ecne: Automated Verification of ZK Circuits](https://0xparc.org/blog/ecne)
-- [What Is a ZK Audit?](https://www.zellic.io/blog/what-is-a-zk-audit/)
-- [ZK-SNARKS & The Last Challenge Attack: Mind Your Fiat-Shamir!](https://blog.openzeppelin.com/the-last-challenge-attack)
-- [The Frozen Heart vulnerability in PlonK](https://blog.trailofbits.com/2022/04/18/the-frozen-heart-vulnerability-in-plonk/)
-- [The Frozen Heart vulnerability in Bulletproofs](https://blog.trailofbits.com/2022/04/15/the-frozen-heart-vulnerability-in-bulletproofs/)
-- [Coordinated disclosure of vulnerabilities affecting Girault, Bulletproofs, and PlonK](https://blog.trailofbits.com/2022/04/13/part-1-coordinated-disclosure-of-vulnerabilities-affecting-girault-bulletproofs-and-plonk/)
-- [It pays to be Circomspect](https://blog.trailofbits.com/2022/09/15/it-pays-to-be-circomspect/)
-- [Disarming Fiat-Shamir footguns](https://blog.trailofbits.com/2024/06/24/disarming-fiat-shamir-footguns/)
-- [Zcash Counterfeiting Vulnerability Successfully Remediated](https://electriccoin.co/blog/zcash-counterfeiting-vulnerability-successfully-remediated/)
-- [Security Vulnerabilities in ZK](https://zkv.xyz/security-vulnerabilities-in-zk/)
-- [Circom-Pairing: A Million-Dollar ZK Bug Caught Early](https://medium.com/veridise/circom-pairing-a-million-dollar-zk-bug-caught-early-c5624b278f25)
-- [Developing securely on Aleo blockchain: Common Vulnerability Patterns](https://medium.com/veridise/developing-securely-on-aleo-blockchain-common-vulnerability-patterns-a99070e3ebe2)
-- [Satisfiability Modulo Finite Fields: Unlocking SMT for ZK Verification](https://medium.com/veridise/satisfiability-modulo-finite-fields-unlocking-smt-for-zk-verification-3709b0b2b48e)
-- [ZK Vulnerabilities: Sharp rocks hidden in deep water](https://medium.com/veridise/zk-vulnerabilities-sharp-rocks-hidden-in-deep-water-7cad8d4c2dfa)
-- [Medjai: Protecting Cairo code from Bugs](https://medium.com/veridise/medjai-protecting-cairo-code-from-bugs-d82ec852cd45)
-- [Patch Thursday — Uncovering a ZK-EVM Soundness Bug in zkSync Era](https://medium.com/chainlight/uncovering-a-zk-evm-soundness-bug-in-zksync-era-f3bc1b2a66d8)
-- [Common Vulnerabilities in ZK Proof](https://blog.oxor.io/common-vulnerabilities-in-zk-proof-5ba7620dfa2f)
-- [ChainLight saved zkSync Era from $1.9B exploit](https://blockworks.co/news/exploit-bug-zksync-matter-labs)
-- [ZKPs for Engineers: A look at the Dark Forest ZKPs](https://blog.zkga.me/df-init-circuit)
-- [Facebook: Critical bugs in Facebook/Polygon Winterfell library](https://github.com/google/security-research/security/advisories/GHSA-8fhq-pf83-pv93)
-- [Vulnerabilities patched in Aztec 2.0](https://medium.com/aztec-protocol/vulnerabilities-found-in-aztec-2-0-9b80c8bf416c)
-- [00 PLONK Bug](https://github.com/cryptosubtlety/00/blob/main/00.pdf)
-- [Aztec: Disclosure of recent vulnerabilities](https://hackmd.io/@aztec-network/disclosure-of-recent-vulnerabilities)
-- [Tornado.cash got hacked. By us.](https://tornado-cash.medium.com/tornado-cash-got-hacked-by-us-b1e012a3c9a8)
-- [Filecoin —one PoREP vulnerability found by Trapdoor Tech](https://trapdoortech.medium.com/filecoin-one-porep-vulnerability-found-by-trapdoor-tech-7fc7beb4557b)
-- [Formal Verification of ZK Constraint Systems](https://delendum.xyz/writings/2022-09-04-formal-verification-zk-constraint-systems.html)
-- [Groth16 Malleability](https://geometry.xyz/notebook/groth16-malleability)
-- [SP1 Security Update (2 vulns disclosure)](https://blog.succinct.xyz/sp1-security-update-1-27-25/) -- 27/1/2025
-- [Solana says zero-knowledge proofs were root of mid-April bug](https://blockworks.co/news/solana-bug-patch-zero-knowledge-proofs) ([fix](https://github.com/anza-xyz/agave/pull/5883)) -- 5/5/2025
+- [The State of Security Tools for ZKPs](https://www.zksecurity.xyz/blog/posts/zksecurity-tools/) (Jun 2, 2024)
+- [Detecting boomerang values in zero-knowledge circuits using tag analysis](https://www.zksecurity.xyz/blog/posts/boomerang/) (Aug 25, 2023)
+- [The zero-knowledge attack of the year might just have happened, or how Nova got broken](https://www.zksecurity.xyz/blog/posts/nova-attack/) (Jul 2, 2023)
+- [Do in secret. Assert in public. Don't under-constrain your prover's witness computation in ZK programs](https://www.zksecurity.xyz/blog/posts/underconstrain-bugs/) (Jun 1, 2023)
+- [Ecne: Automated Verification of ZK Circuits](https://0xparc.org/blog/ecne) (May 12, 2022)
+- [What Is a ZK Audit?](https://www.zellic.io/blog/what-is-a-zk-audit/) (Jan 25, 2024)
+- [ZK-SNARKS & The Last Challenge Attack: Mind Your Fiat-Shamir!](https://blog.openzeppelin.com/the-last-challenge-attack) (Dec 14, 2023)
+- [The Frozen Heart vulnerability in PlonK](https://blog.trailofbits.com/2022/04/18/the-frozen-heart-vulnerability-in-plonk/) (Apr 18, 2022)
+- [The Frozen Heart vulnerability in Bulletproofs](https://blog.trailofbits.com/2022/04/15/the-frozen-heart-vulnerability-in-bulletproofs/) (Apr 15, 2022)
+- [Coordinated disclosure of vulnerabilities affecting Girault, Bulletproofs, and PlonK](https://blog.trailofbits.com/2022/04/13/part-1-coordinated-disclosure-of-vulnerabilities-affecting-girault-bulletproofs-and-plonk/) (Apr 13, 2022)
+- [It pays to be Circomspect](https://blog.trailofbits.com/2022/09/15/it-pays-to-be-circomspect/) (Sep 15, 2022)
+- [Disarming Fiat-Shamir footguns](https://blog.trailofbits.com/2024/06/24/disarming-fiat-shamir-footguns/) (Jun 24, 2024)
+- [Zcash Counterfeiting Vulnerability Successfully Remediated](https://electriccoin.co/blog/zcash-counterfeiting-vulnerability-successfully-remediated/) (Feb 5, 2019)
+- [Security Vulnerabilities in ZK](https://zkv.xyz/security-vulnerabilities-in-zk/) (Sep 1, 2023)
+- [Circom-Pairing: A Million-Dollar ZK Bug Caught Early](https://medium.com/veridise/circom-pairing-a-million-dollar-zk-bug-caught-early-c5624b278f25) (Jan 3, 2023)
+- [Developing securely on Aleo blockchain: Common Vulnerability Patterns](https://medium.com/veridise/developing-securely-on-aleo-blockchain-common-vulnerability-patterns-a99070e3ebe2) (Jun 26, 2024)
+- [Satisfiability Modulo Finite Fields: Unlocking SMT for ZK Verification](https://medium.com/veridise/satisfiability-modulo-finite-fields-unlocking-smt-for-zk-verification-3709b0b2b48e) (Aug 17, 2023)
+- [ZK Vulnerabilities: Sharp rocks hidden in deep water](https://medium.com/veridise/zk-vulnerabilities-sharp-rocks-hidden-in-deep-water-7cad8d4c2dfa) (May 2, 2023)
+- [Medjai: Protecting Cairo code from Bugs](https://medium.com/veridise/medjai-protecting-cairo-code-from-bugs-d82ec852cd45) (Jul 22, 2022)
+- [Patch Thursday -- Uncovering a ZK-EVM Soundness Bug in zkSync Era](https://medium.com/chainlight/uncovering-a-zk-evm-soundness-bug-in-zksync-era-f3bc1b2a66d8) (Nov 2, 2023)
+- [Common Vulnerabilities in ZK Proof](https://blog.oxor.io/common-vulnerabilities-in-zk-proof-5ba7620dfa2f) (Oct 30, 2023)
+- [ChainLight saved zkSync Era from $1.9B exploit](https://blockworks.co/news/exploit-bug-zksync-matter-labs) (Nov 3, 2023)
+- [ZKPs for Engineers: A look at the Dark Forest ZKPs](https://blog.zkga.me/df-init-circuit) (Sep 29, 2020)
+- [Facebook: Critical bugs in Facebook/Polygon Winterfell library](https://github.com/google/security-research/security/advisories/GHSA-8fhq-pf83-pv93) (Apr 12, 2023)
+- [Vulnerabilities patched in Aztec 2.0](https://medium.com/aztec-protocol/vulnerabilities-found-in-aztec-2-0-9b80c8bf416c) (Sep 16, 2021)
+- [00 PLONK Bug](https://github.com/cryptosubtlety/00/blob/main/00.pdf) (15 Dec 2021)
+- [Aztec: Disclosure of recent vulnerabilities](https://hackmd.io/@aztec-network/disclosure-of-recent-vulnerabilities) (Jan 11, 2022)
+- [Tornado.cash got hacked. By us.](https://tornado-cash.medium.com/tornado-cash-got-hacked-by-us-b1e012a3c9a8) (Oct 12, 2019)
+- [Filecoin -- one PoREP vulnerability found by Trapdoor Tech](https://trapdoortech.medium.com/filecoin-one-porep-vulnerability-found-by-trapdoor-tech-7fc7beb4557b) (May 7, 2020)
+- [Formal Verification of ZK Constraint Systems](https://delendum.xyz/writings/2022-09-04-formal-verification-zk-constraint-systems.html) (Sep 4, 2022)
+- [Groth16 Malleability](https://github.com/geometryxyz/groth16-malleability) (Last updated: Aug 1, 2022)
+- [SP1 Security Update (2 vulns disclosure)](https://blog.succinct.xyz/sp1-security-update-1-27-25/) (Jan 27, 2025)
+- [Solana says zero-knowledge proofs were root of mid-April bug](https://blockworks.co/news/solana-bug-patch-zero-knowledge-proofs) ([fix](https://github.com/anza-xyz/agave/pull/5883)) (May 5, 2025)
 
-# Audits
+## Audits
 
 - [Collection of security reviews of ZK Protocols](https://github.com/nullity00/zk-security-reviews)
 - [zksecurity audit reports](https://www.zksecurity.xyz/reports/)
 - [openzeppelin audit reports](https://blog.openzeppelin.com/tag/security-audits)
 - [veridise audit reports](https://veridise.com/past-security-audits/)
 
-# Talks
+## Talks
 
-- [ZKP MOOC Lecture 15: Secure ZK Circuits with Formal Methods](https://www.youtube.com/watch?v=av7Wq742GIA)
-- [zkStudyClub: Zero-Knowledge Proofs Security, in Practice -- JP Aumasson, Taurus](https://www.youtube.com/watch?v=l_pIrHVz87I)
-- [0xParc: (Workshop) ZK Security Research](https://www.youtube.com/watch?v=nYifGRRikh8)
-- [Are Your Zero-Knowledge Proofs Correct? by Jon Stephens | Devcon Bogotá](https://www.youtube.com/watch?v=ettgm3ZVYOk)
-- [Shankara Pailoor - Picus: Push button zk circuit verification](https://www.youtube.com/watch?v=4iDhdEmwnlQ)
-- [Introduction to ZK Security Research | David Theodore | PROGCRYPTO](https://www.youtube.com/watch?v=P2OVtcsSZSQ)
-- [ZK7: Security of ZKP projects: same but different - JP Aumasson - Taurus](https://www.youtube.com/watch?v=be9pbCKNB28)
-- [ZK9: Fuzzy Knowledge Fuzzing SNARK circuit primitives – Innokentii Sennovskii (Aztec Network)](https://www.youtube.com/watch?v=ItVUCP1El2E)
-- [ZK10: ZK Vulnerabilities and Attacks - Stefanos Chaliasos](https://www.youtube.com/watch?v=CNxNe9-UySs)
-- [ZK11: Insights from and on Taxonomy of ZKP Vulnerabilities - Gyumin Roh](https://www.youtube.com/watch?v=Gfa4BIMMXhk)
-- [ETH Seoul 2023: Opinionated Survey of ZKP Security by Gyumin Roh, KALOS/HAECHI LABS](https://www.youtube.com/watch?v=L8PqEaX74VU)
-- [ZKProof 6: Exploiting a Vulnerable Implementation of the Fiat-Shamir Transform in a KZG-based SNARK ](https://www.youtube.com/live/CH3Kvssyyds?si=uiR3-UdYN8wFgYJh)
-- [ZKProof 6: Why Verifying the Verifier Opens Up Longer-Term ZK Innovation - Ben Livshits (Matter Labs)](https://www.youtube.com/live/JUls9DWQuic?si=82_0U-ObhW5PCJ7j)
-- [ZKProof 6: Practical Formal Verification for Arithmetic Circuits - Marcin Kostrzewa (Reilabs)](https://www.youtube.com/live/pidYRNKplZE?si=qAgi_XQQS4cQPWif)
-- [ZKProof 6: SoK: Understanding Security Vulnerabilities in SNARKs - Stefanos Chaliasos (Imperial College London)](https://www.youtube.com/watch?v=6-aeTlREYZo)
-- [ETHCC\[7\]: Analysis and Auditing of ZKP Vulnerabilities](https://ethcc.io/archive/Analysis-and-Auditing-of-ZKP-Vulnerabilities)
+- [ZKP MOOC Lecture 15: Secure ZK Circuits with Formal Methods](https://www.youtube.com/watch?v=av7Wq742GIA) (Uploaded: Apr 26, 2023)
+- [zkStudyClub: Zero-Knowledge Proofs Security, in Practice -- JP Aumasson, Taurus](https://www.youtube.com/watch?v=l_pIrHVz87I) (Uploaded: Mar 31, 2022)
+- [0xParc: (Workshop) ZK Security Research](https://www.youtube.com/watch?v=nYifGRRikh8) (Uploaded: Mar 24, 2023)
+- [Are Your Zero-Knowledge Proofs Correct? by Jon Stephens | Devcon Bogotá](https://www.youtube.com/watch?v=ettgm3ZVYOk) (Uploaded: Oct 16, 2022)
+- [Shankara Pailoor - Picus: Push button zk circuit verification](https://www.youtube.com/watch?v=4iDhdEmwnlQ) (Jul 18, 2023)
+- [Introduction to ZK Security Research | David Theodore | PROGCRYPTO](https://www.youtube.com/watch?v=P2OVtcsSZSQ) (Uploaded: Jan 25, 2024)
+- [ZK7: Security of ZKP projects: same but different - JP Aumasson - Taurus](https://www.youtube.com/watch?v=be9pbCKNB28) (Uploaded: May 1, 2022)
+- [ZK9: Fuzzy Knowledge Fuzzing SNARK circuit primitives – Innokentii Sennovskii (Aztec Network)](https://www.youtube.com/watch?v=ItVUCP1El2E) (Uploaded: Apr 12, 2023)
+- [ZK10: ZK Vulnerabilities and Attacks - Stefanos Chaliasos](https://www.youtube.com/watch?v=CNxNe9-UySs) (Uploaded: Sep 29, 2023)
+- [ZK11: Insights from and on Taxonomy of ZKP Vulnerabilities - Gyumin Roh](https://www.youtube.com/watch?v=Gfa4BIMMXhk) (Uploaded: Apr 19, 2024)
+- [ETH Seoul 2023: Opinionated Survey of ZKP Security by Gyumin Roh, KALOS/HAECHI LABS](https://www.youtube.com/watch?v=L8PqEaX74VU) (Uploaded: Jun 25, 2023)
+- [ZKProof 6: The Last Challenge Attack -- Exploiting a Vulnerable Implementation of the Fiat-Shamir Transform in a KZG-based SNARK - Oana Ciobotaru](https://www.youtube.com/live/CH3Kvssyyds?si=uiR3-UdYN8wFgYJh) (May 24, 2024)
+- [ZKProof 6: Why Verifying the Verifier Opens Up Longer-Term ZK Innovation - Ben Livshits (Matter Labs)](https://www.youtube.com/live/JUls9DWQuic?si=82_0U-ObhW5PCJ7j) (May 23, 2024)
+- [ZKProof 6: Practical Formal Verification for Arithmetic Circuits - Marcin Kostrzewa (Reilabs)](https://www.youtube.com/live/pidYRNKplZE?si=qAgi_XQQS4cQPWif) (May 23, 2024)
+- [ZKProof 6: SoK: Understanding Security Vulnerabilities in SNARKs - Stefanos Chaliasos (Imperial College London)](https://www.youtube.com/watch?v=6-aeTlREYZo) (May 24, 2024)
+- [ETHCC\[7\]: Analysis and Auditing of ZKP Vulnerabilities](https://ethcc.io/archive/Analysis-and-Auditing-of-ZKP-Vulnerabilities) (Jul 11, 2024)
 
-# CTFs and Puzzles
+## CTFs and Puzzles
 
 - [ZKHACK's puzzles](https://zkhack.dev/puzzles/)
 - [RareSkills' puzzles](https://github.com/RareSkills/zero-knowledge-puzzles)
@@ -122,18 +122,18 @@ Specific blog posts / Vulnerability Disclosures
 - [StarknetCC-CTF](https://github.com/pscott/StarknetCC-CTF)
 - [CRYPTOHACK](https://cryptohack.org/challenges/zkp/)
 
-# Misc
+## Misc
 
 - [zk-bug-tracker](https://github.com/0xPARC/zk-bug-tracker)
 - [ZK-EVM Audit education sessions](https://www.notion.so/scrollzkp/zkEVM-Audit-Education-Session-11-15-11-22-86d60daceadb438f85908817f7082611)
 - [ZK Podcast](https://zeroknowledge.fm/episodes/)
 - [ZK Bugs Dataset with reproducible vulns](https://github.com/zksecurity/zkbugs/)
 
-# Advisories
+## Advisories
 
 - [Plonky3 -- Missing final polynomial degree check in FRI verifier](https://github.com/Plonky3/Plonky3/security/advisories/GHSA-f69f-5fx9-w9r9)
 
-# Papers
+## Papers
 
 - [SoK: What don't we know? Understanding Security Vulnerabilities in SNARKs](https://arxiv.org/pdf/2402.15293)
 - [Zero-Knowledge Proof Vulnerability Analysis and Security Auditing](https://eprint.iacr.org/2024/514.pdf)
@@ -164,7 +164,7 @@ Specific blog posts / Vulnerability Disclosures
 - [Automated Verification of Consistency in Zero-Knowledge Proof Circuits](https://eprint.iacr.org/2025/916.pdf)
 - [Towards Fuzzing Zero-Knowledge Proof Circuits (Short Paper)](https://arxiv.org/pdf/2504.14881)
 
-# Tools
+## Tools
 
 If the link points to a paper, then it means that the tool is not open-sourced.
 
