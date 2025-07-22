@@ -132,6 +132,7 @@ If you want to add a new resource, please submit a pull request to improve this 
 ## Advisories
 
 - [Plonky3 -- Missing final polynomial degree check in FRI verifier](https://github.com/Plonky3/Plonky3/security/advisories/GHSA-f69f-5fx9-w9r9)
+- [ZK-Kit -- Under-Constrained Bug in BinaryMerkleRoot Circuit](https://pse.dev/blog/under-constrained-bug-in-binary-merkle-root-circuit-fixed-in-v200)
 
 ## Papers
 
