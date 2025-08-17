@@ -164,6 +164,7 @@ If you want to add a new resource, please submit a pull request to improve this 
 - [AC4: Algebraic Computation Checker for Circuit Constraints](https://arxiv.org/pdf/2403.15676)
 - [Automated Verification of Consistency in Zero-Knowledge Proof Circuits](https://eprint.iacr.org/2025/916.pdf)
 - [Towards Fuzzing Zero-Knowledge Proof Circuits (Short Paper)](https://arxiv.org/pdf/2504.14881)
+- [Automated Soundness and Completeness Vetting of Polygon zkEVM](https://www.usenix.org/system/files/usenixsecurity25-peng-xinghao.pdf)
 
 ## Tools
 
