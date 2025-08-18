@@ -179,7 +179,7 @@ If the link points to a paper, then it means that the tool is not open-sourced.
 | [Picus](https://github.com/Veridise/Picus)                                                 | Circuit         | Circom, GNARK (R1CS) | Formal Verification   |
 | [Ecne](https://github.com/franklynwang/EcneProject)                                        | Circuit         | Circom (R1CS) | Formal Verification          |
 | [SNARKProbe](https://github.com/BARC-Purdue/SNARKProbe)                                    | Circuit/Backend | R1CS   | Fuzzing                             |
-| [circom_civer](https://github.com/costa-group/circom_civer)                                | Circuit         | Circom | Formal Verification                 |
+| [circom_civer](https://github.com/costa-group/circom_civer)                                | Circuit         | Circom | Formal Verification (SMT)           |
 | [gnark-lean-extractor](https://github.com/reilabs/gnark-lean-extractor)                    | Circuit         | Gnark  | Formal Verification (Lean)          |
 | [fAmulet](https://arxiv.org/pdf/2410.12210)                                                | Circuit/zk(E)VM|  Polygon zkEVM | Fuzzing                      |
 | [zkwasm-fv](https://github.com/CertiKProject/zkwasm-fv)                                    | Circuit/zk(E)VM | zkWasm | Formal Verification (Coq)           |
@@ -189,5 +189,4 @@ If the link points to a paper, then it means that the tool is not open-sourced.
 | [sierra_analyzer](https://github.com/FuzzingLabs/sierra-analyzer)                          | Circuit         | Cairo   | Static Analysis / Symbolic Execution |
 | [Pilspector](https://github.com/Schaeff/pilspector/)                                       | Circuit         | PIL     | Symbolic Analysis                  |
 | [zkFuzz](https://github.com/Koukyosyumei/zkFuzz)                                           | Circuit         | Circom  | Fuzzing                            |
-| [CIVER](https://github.com/costa-group/circom_civer)                                       | Circuit         | Circom  | Formal Verification (SMT)          |
 | [garden](https://github.com/formal-land/garden)                                            | Circuit         | Circom  | Formal Verification (Coq)          |
