@@ -184,7 +184,7 @@ If the link points to a paper, then it means that the tool is not open-sourced.
 | [fAmulet](https://arxiv.org/pdf/2410.12210)                                                | Circuit/zk(E)VM|  Polygon zkEVM | Fuzzing                      |
 | [zkwasm-fv](https://github.com/CertiKProject/zkwasm-fv)                                    | Circuit/zk(E)VM | zkWasm | Formal Verification (Coq)           |
 | [MTZK](https://sites.google.com/view/mtzk)                                                 | Frontend        | ZoKrates, Noir, Cairo, Leo | Fuzzing (Metamorphing Testing)|
-| [Circuzz](https://arxiv.org/pdf/2411.02077)                                                | Frontend        | Circom, Corset, GNARK, Noir| Fuzzing (Metamorphing Testing)|
+| [Circuzz](https://arxiv.org/pdf/2411.02077)                                                | Ent-to-End      | Circom, Corset, GNARK, Noir| Fuzzing (Metamorphing Testing)|
 | [aztec_fuzzing](https://github.com/FuzzingLabs/aztec_fuzzing)                              | Frontend        | Noir    | Fuzzing (Generation-based)         |
 | [sierra_analyzer](https://github.com/FuzzingLabs/sierra-analyzer)                          | Circuit         | Cairo   | Static Analysis / Symbolic Execution |
 | [Pilspector](https://github.com/Schaeff/pilspector/)                                       | Circuit         | PIL     | Symbolic Analysis                  |
