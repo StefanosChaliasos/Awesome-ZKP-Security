@@ -156,7 +156,7 @@ If you want to add a new resource, please submit a pull request to improve this 
 - [Scalable Verification of Zero-Knowledge Protocols](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a133/1Ub23QzVaWA)
 - [The Last Challenge Attack: Exploiting a Vulnerable Implementation of the Fiat-Shamir Transform in a KZG-based SNARK](https://eprint.iacr.org/2024/398)
 - [fAmulet: Finding Finalization Failure Bugs in Polygon zkRollup](https://arxiv.org/pdf/2410.12210)
-- [Fuzzing Processing Pipelines for Zero-Knowledge Circuits](https://arxiv.org/pdf/2411.02077)
+- [Fuzzing Processing Pipelines for Zero-Knowledge Circuits](https://mariachris.github.io/Pubs/CCS-2025.pdf)
 - [How to Prove False Statements: Practical Attacks on Fiat-Shamir](https://eprint.iacr.org/2025/118)
 - [MTZK: Testing and Exploring Bugs in Zero-Knowledge (ZK) Compilers](https://www.ndss-symposium.org/wp-content/uploads/2025-530-paper.pdf)
 - [zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits](https://arxiv.org/pdf/2504.11961)
@@ -184,7 +184,7 @@ If the link points to a paper, then it means that the tool is not open-sourced.
 | [fAmulet](https://arxiv.org/pdf/2410.12210)                                                | Circuit/zk(E)VM|  Polygon zkEVM | Fuzzing                      |
 | [zkwasm-fv](https://github.com/CertiKProject/zkwasm-fv)                                    | Circuit/zk(E)VM | zkWasm | Formal Verification (Coq)           |
 | [MTZK](https://sites.google.com/view/mtzk)                                                 | Frontend        | ZoKrates, Noir, Cairo, Leo | Fuzzing (Metamorphing Testing)|
-| [Circuzz](https://arxiv.org/pdf/2411.02077)                                                | Ent-to-End      | Circom, Corset, GNARK, Noir| Fuzzing (Metamorphing Testing)|
+| [Circuzz](https://github.com/Rigorous-Software-Engineering/circuzz)                        | Frontend/Backend | Circom, Corset, GNARK, Noir| Fuzzing (Metamorphing Testing)|
 | [aztec_fuzzing](https://github.com/FuzzingLabs/aztec_fuzzing)                              | Frontend        | Noir    | Fuzzing (Generation-based)         |
 | [sierra_analyzer](https://github.com/FuzzingLabs/sierra-analyzer)                          | Circuit         | Cairo   | Static Analysis / Symbolic Execution |
 | [Pilspector](https://github.com/Schaeff/pilspector/)                                       | Circuit         | PIL     | Symbolic Analysis                  |
