@@ -92,7 +92,7 @@ If you want to add a new resource, please submit a pull request to improve this 
 
 - [Collection of security reviews of ZK Protocols](https://github.com/nullity00/zk-security-reviews)
 - [zksecurity audit reports](https://www.zksecurity.xyz/reports/)
-- [openzeppelin audit reports](https://blog.openzeppelin.com/tag/security-audits)
+- [openzeppelin audit reports](https://www.openzeppelin.com/research#security-audits)
 - [veridise audit reports](https://veridise.com/past-security-audits/)
 
 ## Talks
