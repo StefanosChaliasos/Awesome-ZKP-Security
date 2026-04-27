@@ -165,6 +165,7 @@ If you want to add a new resource, please submit a pull request to improve this 
 - [Automated Verification of Consistency in Zero-Knowledge Proof Circuits](https://eprint.iacr.org/2025/916.pdf)
 - [Towards Fuzzing Zero-Knowledge Proof Circuits (Short Paper)](https://arxiv.org/pdf/2504.14881)
 - [Automated Soundness and Completeness Vetting of Polygon zkEVM](https://www.usenix.org/system/files/usenixsecurity25-peng-xinghao.pdf)
+- [ScaleCirc: Scaling the Analysis over Circom Circuits](https://ieeexplore.ieee.org/document/11334720)
 
 ## Tools
 
