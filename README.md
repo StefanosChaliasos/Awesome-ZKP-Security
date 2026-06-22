@@ -7,11 +7,16 @@ If you want to add a new resource, please submit a pull request to improve this 
 ## Table of Contents
 
 - [ZKPs](#zkps)
+  - [Curated Lists for ZKPs](#curated-lists-for-zkps)
+  - [Courses](#courses)
+  - [Books](#books)
 - [Blogs](#blogs)
+  - [Specific blog posts / Vulnerability Disclosures](#specific-blog-posts--vulnerability-disclosures)
 - [Audits](#audits)
 - [Talks](#talks)
 - [CTFs and Puzzles](#ctfs-and-puzzles)
 - [Misc](#misc)
+- [Advisories](#advisories)
 - [Papers](#papers)
 - [Tools](#tools)
 
@@ -86,7 +91,14 @@ If you want to add a new resource, please submit a pull request to improve this 
 - [Formal Verification of ZK Constraint Systems](https://delendum.xyz/writings/2022-09-04-formal-verification-zk-constraint-systems.html) (Sep 4, 2022)
 - [Groth16 Malleability](https://github.com/geometryxyz/groth16-malleability) (Last updated: Aug 1, 2022)
 - [SP1 Security Update (2 vulns disclosure)](https://blog.succinct.xyz/sp1-security-update-1-27-25/) (Jan 27, 2025)
+- [Introducing Clean, a Formal Verification DSL for ZK Circuits in Lean4](https://blog.zksecurity.xyz/posts/clean/) (Mar 27, 2025)
 - [Solana says zero-knowledge proofs were root of mid-April bug](https://blockworks.co/news/solana-bug-patch-zero-knowledge-proofs) ([fix](https://github.com/anza-xyz/agave/pull/5883)) (May 5, 2025)
+- [Comparison of Formal Verification Frameworks for Arithmetic Circuits](https://blog.zksecurity.xyz/posts/formal-verification-arithmetic-circuits/) (Nov 19, 2025)
+- [Unfaithful Claims: Breaking 6 zkVMs](https://osec.io/blog/2026-03-03-zkvms-unfaithful-claims/) (Mar 3, 2026)
+- [We beat Google's zero-knowledge proof of quantum cryptanalysis](https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) (Apr 17, 2026)
+- [Verifying Poseidon in Clean: Why the Last 'sorry' Is About Primality](https://blog.zksecurity.xyz/posts/poseidon-clean/) (May 4, 2026)
+- [On Formal Verification and a Bug in SP1 Hypercube](https://zkevm.ethereum.foundation/blog/sp1-fv) (May 20, 2026)
+- [Circuit Breaker: The Missing Constraint That Compromised RISC Zero's zkVM](https://hackenproof.com/blog/for-hackers/risc-zero-zkvm-missing-constraint-vulnerability) (Jun 11, 2026)
 
 ## Audits
 
@@ -166,28 +178,39 @@ If you want to add a new resource, please submit a pull request to improve this 
 - [Towards Fuzzing Zero-Knowledge Proof Circuits (Short Paper)](https://arxiv.org/pdf/2504.14881)
 - [Automated Soundness and Completeness Vetting of Polygon zkEVM](https://www.usenix.org/system/files/usenixsecurity25-peng-xinghao.pdf)
 - [ScaleCirc: Scaling the Analysis over Circom Circuits](https://ieeexplore.ieee.org/document/11334720)
+- [SoK: Understanding zkVM: From Research to Practice](https://eprint.iacr.org/2026/525)
+- [Verifying Jolt zkVM Lookup Semantics](https://eprint.iacr.org/2024/1841)
+- [Consistency Verification for Zero-Knowledge Virtual Machine on Circuit-Irrelevant Representation](https://eprint.iacr.org/2025/2204)
+- [Formal Verification of the S-two AIR](https://arxiv.org/abs/2606.04311)
+- [Split Gröbner Bases for Satisfiability Modulo Finite Fields](https://link.springer.com/chapter/10.1007/978-3-031-65627-9_1)
+- [MCSat-based Finite Field Reasoning in the Yices2 SMT Solver](https://link.springer.com/chapter/10.1007/978-3-031-63498-7_23)
+- [An Effective Orchestral Approach to Satisfiability Modulo Prime Fields](https://arxiv.org/abs/2604.26709)
+- [Language-Agnostic Detection of Computation-Constraint Inconsistencies in ZKP Programs via Value Inference](https://www.computer.org/csdl/proceedings-article/sp/2026/606500d224/2geEWZFmujK)
 
 ## Tools
 
 If the link points to a paper, then it means that the tool is not open-sourced.
 
-| Tool                                                                                       | Layer           | DSL / Target | Analysis                      |
-|--------------------------------------------------------------------------------------------|-----------------|--------|-------------------------------------|
-| [Circomspect](https://github.com/trailofbits/circomspect)                                  | Circuit         | Circom | Static Analysis                     |
-| [ZKAP](https://github.com/whbjzzwjxq/ZKAP)                                                 | Circuit         | Circom | Static Analysis                     |
-| [halo2-analyzer](https://github.com/quantstamp/halo2-analyzer)                             | Circuit         | halo2  | Static Analysis / Symbolic Analysis |
-| [Coda](https://github.com/Veridise/coda)                                                   | Circuit         | Circom | Formal Verification (Coq)           |
-| [Picus](https://github.com/Veridise/Picus)                                                 | Circuit         | Circom, GNARK (R1CS) | Formal Verification   |
-| [Ecne](https://github.com/franklynwang/EcneProject)                                        | Circuit         | Circom (R1CS) | Formal Verification          |
-| [SNARKProbe](https://github.com/BARC-Purdue/SNARKProbe)                                    | Circuit/Backend | R1CS   | Fuzzing                             |
-| [circom_civer](https://github.com/costa-group/circom_civer)                                | Circuit         | Circom | Formal Verification (SMT)           |
-| [gnark-lean-extractor](https://github.com/reilabs/gnark-lean-extractor)                    | Circuit         | Gnark  | Formal Verification (Lean)          |
-| [fAmulet](https://arxiv.org/pdf/2410.12210)                                                | Circuit/zk(E)VM|  Polygon zkEVM | Fuzzing                      |
-| [zkwasm-fv](https://github.com/CertiKProject/zkwasm-fv)                                    | Circuit/zk(E)VM | zkWasm | Formal Verification (Coq)           |
-| [MTZK](https://sites.google.com/view/mtzk)                                                 | Frontend        | ZoKrates, Noir, Cairo, Leo | Fuzzing (Metamorphing Testing)|
-| [Circuzz](https://github.com/Rigorous-Software-Engineering/circuzz)                        | Frontend/Backend | Circom, Corset, GNARK, Noir| Fuzzing (Metamorphing Testing)|
-| [aztec_fuzzing](https://github.com/FuzzingLabs/aztec_fuzzing)                              | Frontend        | Noir    | Fuzzing (Generation-based)         |
-| [sierra_analyzer](https://github.com/FuzzingLabs/sierra-analyzer)                          | Circuit         | Cairo   | Static Analysis / Symbolic Execution |
-| [Pilspector](https://github.com/Schaeff/pilspector/)                                       | Circuit         | PIL     | Symbolic Analysis                  |
-| [zkFuzz](https://github.com/Koukyosyumei/zkFuzz)                                           | Circuit         | Circom  | Fuzzing                            |
-| [garden](https://github.com/formal-land/garden)                                            | Circuit         | Circom  | Formal Verification (Coq)          |
+| Tool                                                                                       | Layer            | DSL / Target               | Analysis                                  |
+|--------------------------------------------------------------------------------------------|------------------|----------------------------|-------------------------------------------|
+| [Circomspect](https://github.com/trailofbits/circomspect)                                  | Circuit          | Circom                     | Static Analysis                           |
+| [ZKAP](https://github.com/whbjzzwjxq/ZKAP)                                                 | Circuit          | Circom                     | Static Analysis                           |
+| [halo2-analyzer](https://github.com/quantstamp/halo2-analyzer)                             | Circuit          | halo2                      | Static Analysis / Symbolic Analysis       |
+| [Coda](https://github.com/Veridise/coda)                                                   | Circuit          | Circom                     | Formal Verification (Coq)                 |
+| [Picus](https://github.com/Veridise/Picus)                                                 | Circuit          | Circom, GNARK (R1CS)       | Formal Verification                       |
+| [Ecne](https://github.com/franklynwang/EcneProject)                                        | Circuit          | Circom (R1CS)              | Formal Verification                       |
+| [SNARKProbe](https://github.com/BARC-Purdue/SNARKProbe)                                    | Circuit/Backend  | R1CS                       | Fuzzing                                   |
+| [circom_civer](https://github.com/costa-group/circom_civer)                                | Circuit          | Circom                     | Formal Verification (SMT)                 |
+| [gnark-lean-extractor](https://github.com/reilabs/gnark-lean-extractor)                    | Circuit          | Gnark                      | Formal Verification (Lean)                |
+| [fAmulet](https://arxiv.org/pdf/2410.12210)                                                | Circuit/zk(E)VM  | Polygon zkEVM              | Fuzzing                                   |
+| [zkwasm-fv](https://github.com/CertiKProject/zkwasm-fv)                                    | Circuit/zk(E)VM  | zkWasm                     | Formal Verification (Coq)                 |
+| [MTZK](https://sites.google.com/view/mtzk)                                                 | Frontend         | ZoKrates, Noir, Cairo, Leo | Fuzzing (Metamorphing Testing)            |
+| [Circuzz](https://github.com/Rigorous-Software-Engineering/circuzz)                        | Frontend/Backend | Circom, Corset, GNARK, Noir| Fuzzing (Metamorphing Testing)            |
+| [aztec_fuzzing](https://github.com/FuzzingLabs/aztec_fuzzing)                              | Frontend         | Noir                       | Fuzzing (Generation-based)                |
+| [sierra_analyzer](https://github.com/FuzzingLabs/sierra-analyzer)                          | Circuit          | Cairo                      | Static Analysis / Symbolic Execution      |
+| [Pilspector](https://github.com/Schaeff/pilspector/)                                       | Circuit          | PIL                        | Symbolic Analysis                         |
+| [zkFuzz](https://github.com/Koukyosyumei/zkFuzz)                                           | Circuit          | Circom                     | Fuzzing                                   |
+| [garden](https://github.com/formal-land/garden)                                            | Circuit          | Circom                     | Formal Verification (Coq)                 |
+| [CCC-Check](https://github.com/ArmanKolozyan/CCC-Check)                                    | Circuit          | IR-based                   | Static Analysis (Abstract Interpretation) |
+| [acl2-jolt](https://github.com/kwancarl/acl2-jolt)                                         | zk(E)VM          | Jolt                       | Formal Verification (ACL2)                |
+| [ZIVER](https://github.com/WindOctober/ZIVER)                                              | Circuit/zk(E)VM  | zkVM                       | Formal Verification                       |
